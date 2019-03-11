@@ -1,0 +1,58 @@
+.ellipsis {
+  //单行超出隐藏，...结尾
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.clearfix:after {
+  //清除浮动
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  zoom: 1;
+}
+
+.container {
+  width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.bg-w {
+  background-color: #fff;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.tc {
+  text-align: center;
+}
+
+.fz32 {
+  font-size: 32px;
+}
+.fz14 {
+  font-size: 14px;
+}
+.fz16 {
+  font-size: 16px;
+}
+.fz24 {
+  font-size: 24px;
+}
+
+.move-up {
+  transition: all 0.4s;
+}
+.move-up:hover {
+  box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
